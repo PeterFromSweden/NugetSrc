@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>NugetSrc</id>
-    <version>0.1.3</version>
+    <version>0.1.4</version>
     <title>NugetSrc native static lib</title>
     <projectUrl>https://github.com/PeterFromSweden/NugetClient</projectUrl>
     <authors>Peter</authors>

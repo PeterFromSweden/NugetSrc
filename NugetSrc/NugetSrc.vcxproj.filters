@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{d700fac1-c988-4756-bb90-650827bfe3f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NugetSrc.h">
@@ -23,5 +26,12 @@
     <ClCompile Include="NugetSrc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\NugetSrc.nuspec" />
+    <None Include="..\README.md" />
+    <None Include="..\build\NugetSrc.props">
+      <Filter>build</Filter>
+    </None>
   </ItemGroup>
 </Project>

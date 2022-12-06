@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NugetSrc</id>
+    <version>0.1.2</version>
+    <title>NugetSrc native static lib</title>
+    <projectUrl>https://github.com/PeterFromSweden/NugetClient</projectUrl>
+    <authors>Peter</authors>
+    <owners>Peter</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NugetSrc is a test.
+      Note: This package is statically linked. 
+      When applying, the default VC runtime setting for the target project will be changed to /MT and /MTd respectively.
+    </description>
+    <summary>Windows build of Mako SDK.</summary>
+    <copyright>Copyright Global Graphics 2018</copyright>
+    <tags>Mako SDK PDF XPS Native</tags>
+  </metadata>
+  <files>
+    <file src="build\**" target="build" />
+  </files>
+</package>

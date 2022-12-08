@@ -33,5 +33,6 @@
     <None Include="..\build\NugetSrc.props">
       <Filter>build</Filter>
     </None>
+    <None Include="NugetSrc.props" />
   </ItemGroup>
 </Project>

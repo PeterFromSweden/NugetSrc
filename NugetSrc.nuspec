@@ -17,6 +17,9 @@
     <tags>Native, native</tags>
   </metadata>
   <files>
-    <file src="build\**" target="build" />
+    <file src="NugetSrc\NugetSrc.props" target="build" />
+    <file src="NugetSrc\*.h" target="build\native\include" />
+    <file src="x64\Debug\*.lib" target="build\native\lib" />
+    <file src="x64\Debug\*.pdb" target="build\native\lib" />
   </files>
 </package>

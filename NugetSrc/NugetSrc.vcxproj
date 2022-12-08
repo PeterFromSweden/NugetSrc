@@ -152,6 +152,7 @@
     <None Include="..\build\NugetSrc.props" />
     <None Include="..\NugetSrc.nuspec" />
     <None Include="..\README.md" />
+    <None Include="NugetSrc.props" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
